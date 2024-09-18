@@ -1,3 +1,5 @@
+package LeetCode;
+
 import java.util.Arrays;
 
 public class LeetCode01_twoSum {

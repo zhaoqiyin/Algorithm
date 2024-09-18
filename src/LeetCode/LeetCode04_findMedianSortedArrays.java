@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+package LeetCode;
 
 public class LeetCode04_findMedianSortedArrays {
     public static void main(String[] args) {
