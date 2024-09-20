@@ -3,7 +3,7 @@ package class02;
 /**
  * 快速排序
  */
-public class class06_QuickSort {
+public class Code06_QuickSort {
     public static void main(String[] args) {
         int[] arr = {1,2,9,3,5,6,4,7,8};
         quickSort(arr);
