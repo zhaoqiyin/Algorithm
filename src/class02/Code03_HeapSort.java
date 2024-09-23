@@ -21,6 +21,13 @@ public class Code03_HeapSort {
         for (int i = 0; i < arr.length; i++) { // O(N)
             heapInsert(arr, i); // O(logN)
         }
+
+        // 效果与以上循环heapInsert的效果一样，都是变成大根堆的过程，只不过时间复杂度更低  O(N)
+//        for (int i = arr.length - 1; i >= 0; i--) {
+//            heapify(arr, i, arr.length);
+//        }
+
+
         for (int i: arr) {
             System.out.print(i + " ");
         }
