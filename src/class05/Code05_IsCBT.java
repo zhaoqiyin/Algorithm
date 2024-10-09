@@ -36,7 +36,9 @@ public class Code05_IsCBT {
             head = queue.poll();
             left = head.left;
             right = head.right;
-            if ((leaf && (left != null || right != null)) ||
+            if (
+                    // 如果遇到了不双全的节点之后，又发现当前及节点居然有孩子
+                    (leaf && (left != null || right != null)) ||
                     (left == null && right != null)) {
                 return false;
             }
